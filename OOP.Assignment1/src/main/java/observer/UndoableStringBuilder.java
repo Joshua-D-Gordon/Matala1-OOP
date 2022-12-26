@@ -10,6 +10,37 @@ public class UndoableStringBuilder {
     private StringBuilder sequence;
     private Stack<String> stack;
 
+    /***
+     * String builder getter
+     * @return - returns this undoablestringbuilder's stringbuilder
+     */
+    public StringBuilder getSequence() {
+        return sequence;
+    }
+    /***
+     * stack getter
+     * @return - returns this undoablestringbuilder's stack of strings
+     */
+    public Stack<String> getStack() {
+        return stack;
+    }
+
+    /***
+     * Stringbuilder setter
+     * @param sequence - sets this undoablestringbuilder's stringbuilder
+     */
+    public void setSequence(StringBuilder sequence) {
+        this.sequence = sequence;
+    }
+
+    /***
+     * stack setter
+     * @param stack - sets this undoablestringbuilder's stack
+     */
+    public void setStack(Stack<String> stack) {
+        this.stack = stack;
+    }
+
     /**
      * this method undoes the last method applied to the sequence.
      */
@@ -36,6 +67,12 @@ public class UndoableStringBuilder {
         this.stack = new Stack<String>();
 
     }
+
+    public UndoableStringBuilder(UndoableStringBuilder usb){
+        this.sequence = usb.sequence;
+        this.stack = usb.stack;
+    }
+
 
     /**
      * This method appends a String to the current sequence.
