@@ -45,6 +45,7 @@ public class GroupAdmin implements Sender{
             this.customers.get(this.customers.indexOf((ConcreteMember) obj)).update(null);
             this.customers.remove(customers.indexOf((ConcreteMember) obj));
         }catch (Exception e){
+            //catch error
             System.out.println("No such memebr to remove");
             e.printStackTrace();
         }
