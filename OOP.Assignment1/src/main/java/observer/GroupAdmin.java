@@ -40,9 +40,14 @@ public class GroupAdmin implements Sender{
      */
     @Override
     public void unregister(Member obj) {
-        //UndoableStringBuilder forunregestered = new UndoableStringBuilder(null);
-        this.customers.get(this.customers.indexOf((ConcreteMember) obj)).update(null);
-        this.customers.remove(customers.indexOf((ConcreteMember) obj));
+        try {
+            //UndoableStringBuilder forunregestered = new UndoableStringBuilder(null);
+            this.customers.get(this.customers.indexOf((ConcreteMember) obj)).update(null);
+            this.customers.remove(customers.indexOf((ConcreteMember) obj));
+        }catch (Exception e){
+            System.out.println("No such memebr to remove");
+            e.printStackTrace();
+        }
     }
 
     /***
