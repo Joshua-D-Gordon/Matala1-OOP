@@ -64,8 +64,10 @@ git clone https://github.com/Joshua-D-Gordon/Matala1-OOP.git
 ```
 cd Matala1-OOP/OOP.Assignment1/src/test/java/ 
 ```
-4. Install the dependencies and frameworks recommened by your JVM:
-
+4. Install the dependencies and frameworks:
+```
+npm install
+```
 5. compile the test file:
 ```
 javac Tests.java
