@@ -62,17 +62,9 @@ git clone https://github.com/Joshua-D-Gordon/Matala1-OOP.git
 ```
 3. Navigate to the test in the project directory:
 ```
-cd Matala1-OOP/OOP.Assignment1/src/test/java/ 
+cd Matala1-OOP/OOP.Assignment1/target/test-classes/
 ```
-4. Install the dependencies and frameworks:
-```
-npm install
-```
-5. compile the test file:
-```
-javac Tests.java
-```
-6. run the test file:
+5. run the test file:
 ```
 java Tests
 ```
