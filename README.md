@@ -1,5 +1,5 @@
 # **Project**
-## ***By Asaf & Johsua Gordon***
+## ***By Asaf Shmaryahu & Johsua Gordon***
 ### **Table Of Content's**
 |Number| Content | Description |
 |---| ----------------- | ------------------------------ |
