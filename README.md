@@ -62,7 +62,7 @@ git clone https://github.com/Joshua-D-Gordon/Matala1-OOP.git
 ```
 3. Navigate to the test in the project directory:
 ```
-cd /OOP.Assignment1/src/test/java/ 
+cd Matala1-OOP/OOP.Assignment1/src/test/java/ 
 ```
 4. Install the dependencies and frameworks recommened by your JVM:
 
