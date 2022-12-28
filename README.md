@@ -51,6 +51,29 @@ Our projet implements the design patterns of observer into our Undoable String b
  We also found by appeneding to the admins Undoable string builder its footprint increases as well due to the fact that it holds a undoableStringbuilder that holds a now updated appened seqence contaning data rather than an emepty string.
 
 
-6. **Try it yourself!** - downloading and running: download the zip from the github you currently on open it in java and run the tests class to see how the project runs,how much memory size is alocated at each stage , what liberies we used, the time you run the project (date,the current time) will be printed as well as the values with loggers.
+6. **Try it yourself!** - downloading and running: download the zip from the github you currently on and open it in a JVM and run the tests class to see how the project runs,how much memory size is alocated at each stage , what liberies we used, the time you run the project (date,the current time) will be printed as well as the values with loggers.
+
+OR
+
+1. Open your terminal and navigate to the directory where you want to clone the project.
+2. Clone the repository:
+```
+git clone https://github.com/Joshua-D-Gordon/Matala1-OOP.git
+```
+3. Navigate to the test in the project directory:
+```
+cd /OOP.Assignment1/src/test/java/ 
+```
+4. Install the dependencies and frameworks recommened by your JVM:
+
+5. compile the test file:
+```
+javac Tests.java
+```
+6. run the test file:
+```
+java Tests
+```
+
 
 
