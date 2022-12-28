@@ -66,7 +66,7 @@ cd Matala1-OOP/OOP.Assignment1/target/test-classes/
 ```
 5. run the test file:
 ```
-java Tests
+java -jar junit-platform-console-standalone-5.9.0.jar --class-path test-classes --select-class com.baeldung.commandline.Tests
 ```
 
 
